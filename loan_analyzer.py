@@ -18,16 +18,22 @@ loan_costs = [500, 600, 200, 1000, 450]
 # @TODO: Use the `len` function to calculate the total number of loans in the list.
 # Print the number of loans from the list
 # YOUR CODE HERE!
+total_number_loans = len(loan_costs)
+print(f"Total loans: {total_number_loans}")
 
 # What is the total of all loans?
 # @TODO: Use the `sum` function to calculate the total of all loans in the list.
 # Print the total value of the loans
 # YOUR CODE HERE!
+total_sum_loans = sum(loan_costs)
+print(f"Total sum of loans: ${round(total_sum_loans)}")
 
 # What is the average loan amount from the list?
 # @TODO: Using the sum of all loans and the total number of loans, calculate the average loan price.
 # Print the average loan amount
 # YOUR CODE HERE!
+average_loan_price = total_sum_loans / total_number_loans
+print(f"Average loan price: ${round(average_loan_price, 2)}")
 
 """Part 2: Analyze Loan Data.
 
