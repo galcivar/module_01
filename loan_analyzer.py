@@ -82,7 +82,7 @@ print(f"Future Value: ${future_value}")
 # TODO: Verify formula for monthly version
 discount_rate = 0.2
 fair_value = future_value / \
-    (1 + discount_rate / remaining_months) ** remaining_months
+    (1 + discount_rate / 12) ** remaining_months
 print(f"Fair value: ${round(fair_value, 2)}")
 
 # If Present Value represents what the loan is really worth, does it make sense to buy the loan at its cost?
